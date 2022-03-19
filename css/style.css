@@ -35,7 +35,7 @@ header {
   padding: 15px 25px;
   position: fixed;
   background-color: #fff;
-  z-index: 10000000000;
+  z-index: 1000000000;
 }
 header .container {
   display: flex;
