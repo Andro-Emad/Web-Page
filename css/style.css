@@ -181,7 +181,7 @@ header .container nav ul li a:hover {
   letter-spacing: 2px;
 }
 .BoxOne .text p {
-  width: 550px;
+    width: 100%;
   margin: 20px 0;
   font-size: 15px;
   text-align: center;
@@ -221,11 +221,6 @@ header .container nav ul li a:hover {
     display: flex;
     gap: 30px;
     flex-direction: column;
-  }
-}
-@media (max-width: 576px) {
-  .BoxOne .text p {
-    width: 395px;
   }
 }
 /* End BoxOne */
