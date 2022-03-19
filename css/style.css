@@ -121,11 +121,11 @@ header .container nav ul li a:hover {
   flex-direction: column;
   justify-content: center;
   gap: 25px;
-  padding: 45px;
+  padding: 45px 0;
   align-items: flex-end;
 }
 .BoxImg .container h1 {
-  font-size: 40px;
+  font-size: 30px;
   width: 386px;
   text-align: right;
 }
