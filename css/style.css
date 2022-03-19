@@ -32,10 +32,11 @@
 /* Start Header */
 header {
   width: 100%;
-  padding: 15px 25px;
+  padding: 15px 0px;
   position: fixed;
   background-color: #fff;
-  z-index: 1000000000;
+  z-index: 10000000000;
+  box-shadow: 1px 0px 7px 1px #555;
 }
 header .container {
   display: flex;
@@ -53,8 +54,9 @@ header .container nav .list {
 }
 header .container nav ul {
   display: flex;
-  gap: 10px;
+  gap: 5px;
   list-style: none;
+  z-index: 155555555555;
 }
 header .container nav ul li a {
   color: #111;
@@ -165,7 +167,7 @@ header .container nav ul li a:hover {
 /* Start BoxOne */
 .BoxOne {
   background-color: #e0e5eb;
-  padding: 40px 5px;
+  padding: 40px 0;
 }
 .BoxOne .text {
   display: flex;
@@ -231,7 +233,7 @@ header .container nav ul li a:hover {
 .BoxTwo .ashen {
   height: 400px;
   background-color: #e0e5eb;
-  padding: 30px;
+  padding: 30px 0;
   text-align: center;
 }
 .BoxTwo .p {
@@ -244,7 +246,7 @@ header .container nav ul li a:hover {
 .BoxTwo .blue {
   height: 450px;
   background-color: #1637a0;
-  padding: 20px;
+  padding: 20px 0;
 }
 .BoxTwo .blue .BoxFatherTwo {
   display: grid;
@@ -313,7 +315,7 @@ header .container nav ul li a:hover {
 /* Start BoxThree */
 .BoxThree {
   background-color: #1637a0;
-  padding: 40px 20px;
+  padding: 40px 0px;
 }
 .BoxThree .BoxThreeOne {
   display: flex;
@@ -701,7 +703,7 @@ header .container nav ul li a:hover {
 .BoxSeven {
   margin-top: 50px;
   background-color: #1637a0;
-  padding: 25px;
+  padding: 25px 0;
 }
 .BoxSeven .container {
   display: flex;
@@ -728,9 +730,10 @@ header .container nav ul li a:hover {
   width: 100%;
   border: none;
   background-color: #ddd;
-  padding: 7px 5px;
+  padding: 10px 15px;
   margin: 4px auto;
   outline: none;
+  border-radius: 5px;
 }
 .BoxSeven .container .BoxSevenOne .a {
   display: flex;
